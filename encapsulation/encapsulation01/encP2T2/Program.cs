@@ -70,6 +70,10 @@ namespace encP2T2
                 {
                     Console.Write($"\nError. Please enter {query}: ");
                     test = int.TryParse(Console.ReadLine(), out input);
+                    if (gradeTest)
+                    {
+
+                    }
                 }
             } while (!test);
                         
